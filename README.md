@@ -8,3 +8,6 @@ Requirements contain in requirements.txt
 3. Error messages contain in src.enums 
 4. Baseclasses to work with tests and responses contain in src.baseclasses in respose.py
 5. For JSON validation I use schemas in src.schema
+
+# Purposes of testing
+In this test example, I'm testing the server response code, sorting (descending and ascending) when working with a JSON response, filtering by metrics
