@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  test_runner:
+    build: .
+    image: pytest_api_tests
+    container_name: pytest_api_works
+    environment:
+      - ENV=prod
